@@ -1,0 +1,14 @@
+---
+plugin: openapi
+specFile: api.yaml
+
+resources:
+  - path: "/chat"
+    method: POST
+    response:
+      scriptFile: script/add-message.groovy
+
+  - path: "/chat/:userId"
+    method: GET
+    response:
+      scriptFile: script/get-messages.groovy

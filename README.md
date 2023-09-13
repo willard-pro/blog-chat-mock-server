@@ -14,3 +14,5 @@ To start the mock chat server execute the following command
 
     docker-compose up
 
+# External Links:
+ - [Contract First with Mocking](https://www.linkedin.com/pulse/contract-first-mocking-implementation-lord-willard)
